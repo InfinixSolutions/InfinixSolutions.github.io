@@ -1,15 +1,48 @@
 import React , {useState} from 'react';
 import emailjs from 'emailjs-com';
 
+import { db } from '../../firebase';
+import { collection, addDoc } from "firebase/firestore";
+
 const Result = () => {
     return (
         <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
     )
 }
+
+
+
 function ContactForm({props}) {
     const [ result,showresult ] = useState(false);
+    const [fullName, setFullName] = useState(null);
+    const [emailAddress, setEmailAddress] = useState(null);
+    const [message,setMessage] = useState(null);
+    const [phoneNumber,setPhoneNumber] = useState(null);
 
-    const sendEmail = (e) => {
+    const handleInputChange = (e) => {
+        const {id , value} = e.target;
+
+        if(id === "fullname"){
+            setFullName(value);
+            console.log("HEYY HEYY HEYY Niggah")
+        }
+        if(id === "email"){
+            setEmailAddress(value);
+            console.log("Email now")
+        }
+        if(id === "phone"){
+            setPhoneNumber(value);
+            console.log("Phone Is being Changed " )
+        }
+        if(id === "message"){
+            setMessage(value);
+            console.log("Message niggah Message")
+        }
+ 
+    
+    }
+
+    const sendEmail = async (e) => {
         e.preventDefault();
         emailjs
         .sendForm(
@@ -20,13 +53,36 @@ function ContactForm({props}) {
         )
         .then((result) => {
             console.log(result.text);
+           
+           
             }, 
             (error) => {
                 console.log(error.text);
             }
         );
-        e.target.reset();
-        showresult(true);
+       
+
+
+
+        // Logic to add entry to Firebase
+
+        try {
+            const docRef = await addDoc(collection(db, "leads"), {
+              email_adress: emailAddress,
+              phone_number:phoneNumber,
+              full_name: fullName,
+              note:message,
+              origin:"Infinitix Website",
+            });
+            console.log("Document written with ID: ", docRef.id);
+          } catch (e) {
+            console.error("Error adding document: ", e);
+          }
+
+          e.target.reset();
+          showresult(true);
+
+        //   Clear Input Lines from here 
     };
 
     setTimeout(() => {
@@ -38,7 +94,9 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="text"
-                name="fullname"
+                value={fullName}
+                onChange={(e) => handleInputChange(e)}
+                id="fullname"
                 placeholder="Your Name"
                 required
                 />
@@ -47,7 +105,9 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="email"
-                name="email"
+                value={emailAddress}
+                onChange={(e) => handleInputChange(e)}
+                id="email"
                 placeholder="Your Email"
                 required
                 />
@@ -56,24 +116,28 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="text"
-                name="phone"
+                value={phoneNumber}
+                onChange={(e) => handleInputChange(e)}
+                id="phone"
                 placeholder="Phone Number"
                 required
                 />
             </div>
 
-            <div className="rn-form-group">
+            {/* <div className="rn-form-group">
                 <input 
                 type="text"
                 name="subject"
                 placeholder="Subject"
                 required
                 />
-            </div>
+            </div> */}
             
             <div className="rn-form-group">
                 <textarea 
-                name="message"
+                id="message"
+                value={message}
+                onChange={(e) => handleInputChange(e)}
                 placeholder="Your Message"
                 required
                 >

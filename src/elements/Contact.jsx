@@ -33,8 +33,8 @@ class Contact extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Contact Us</h2>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
+                                        <p><a href="tel:+057 254 365 456">+1 (832) 970-4070</a></p>
+                                        <p><a href="tel:+856 325 652 984">+1 (832) 278-7527</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -71,8 +71,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="mailto:admin@gmail.com">ousmanekanaciss@gmail.com</a></p>
+                                        <p><a href="mailto:example@gmail.com">aboltaev99@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <p>11929 W Airport Blvd<br /> Houston, TX 77477</p>
                                     </div>
                                 </div>
                             </div>
