@@ -37,7 +37,7 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo.png" alt="Infinix Logo" />;
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
