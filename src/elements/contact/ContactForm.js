@@ -62,8 +62,6 @@ function ContactForm({props}) {
         );
        
 
-
-
         // Logic to add entry to Firebase
 
         try {
