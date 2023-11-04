@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Infinix/static/css/main.d3919ece.chunk.css",
-    "main.js": "/Infinix/static/js/main.4bac32b3.chunk.js",
-    "main.js.map": "/Infinix/static/js/main.4bac32b3.chunk.js.map",
-    "runtime~main.js": "/Infinix/static/js/runtime~main.82dae4ff.js",
-    "runtime~main.js.map": "/Infinix/static/js/runtime~main.82dae4ff.js.map",
-    "static/css/2.a3632d50.chunk.css": "/Infinix/static/css/2.a3632d50.chunk.css",
-    "static/js/2.284bf307.chunk.js": "/Infinix/static/js/2.284bf307.chunk.js",
-    "static/js/2.284bf307.chunk.js.map": "/Infinix/static/js/2.284bf307.chunk.js.map",
-    "index.html": "/Infinix/index.html",
-    "precache-manifest.c51d2c7cc1e702f1450d5c1f8d362f54.js": "/Infinix/precache-manifest.c51d2c7cc1e702f1450d5c1f8d362f54.js",
-    "service-worker.js": "/Infinix/service-worker.js",
-    "static/css/2.a3632d50.chunk.css.map": "/Infinix/static/css/2.a3632d50.chunk.css.map",
-    "static/css/main.d3919ece.chunk.css.map": "/Infinix/static/css/main.d3919ece.chunk.css.map",
-    "static/media/index.scss": "/Infinix/static/media/slick.f97e3bbf.svg"
+    "main.css": "/Site/static/css/main.d3919ece.chunk.css",
+    "main.js": "/Site/static/js/main.6589c50d.chunk.js",
+    "main.js.map": "/Site/static/js/main.6589c50d.chunk.js.map",
+    "runtime~main.js": "/Site/static/js/runtime~main.f769494e.js",
+    "runtime~main.js.map": "/Site/static/js/runtime~main.f769494e.js.map",
+    "static/css/2.f500c0a1.chunk.css": "/Site/static/css/2.f500c0a1.chunk.css",
+    "static/js/2.da33169f.chunk.js": "/Site/static/js/2.da33169f.chunk.js",
+    "static/js/2.da33169f.chunk.js.map": "/Site/static/js/2.da33169f.chunk.js.map",
+    "index.html": "/Site/index.html",
+    "precache-manifest.4286910fe67e96ce523b6a410d189dc6.js": "/Site/precache-manifest.4286910fe67e96ce523b6a410d189dc6.js",
+    "service-worker.js": "/Site/service-worker.js",
+    "static/css/2.f500c0a1.chunk.css.map": "/Site/static/css/2.f500c0a1.chunk.css.map",
+    "static/css/main.d3919ece.chunk.css.map": "/Site/static/css/main.d3919ece.chunk.css.map",
+    "static/media/index.scss": "/Site/static/media/slick.f97e3bbf.svg"
   }
 }
