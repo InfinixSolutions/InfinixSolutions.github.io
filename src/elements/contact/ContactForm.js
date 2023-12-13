@@ -147,7 +147,7 @@ function ContactForm({props}) {
             </div> 
 
                     <p>
-                    By opting into the web form above you are providing consent for AON Jiu Jitsu to send you periodic text messages. Standard rates may apply. You can reply HELP at anytime or learn more. You may opt-out anytime by replying STOP.
+                    By opting into the web form above you are providing consent for Infinix Solutions to send you periodic text messages. Standard rates may apply. You can reply HELP at anytime or learn more. You may opt-out anytime by replying STOP.
                     </p>
 
             <div className="rn-form-group">
