@@ -116,8 +116,8 @@ class InfinixHome extends Component{
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">Our Portfolio</h2>
-                                        <p>Dive into our portfolio—a showcase of our IT excellence.</p>
+                                        <h2 className="title">Our highlights</h2>
+                                        <p>Dive into our favorite projects  - a showcase of our IT excellence.</p>
                                     </div>
                                 </div>
                             </div>
@@ -146,6 +146,14 @@ class InfinixHome extends Component{
                                         </Slider>
                                     </div>
                                 </div>
+
+                                    <div className="col">
+                                        <a className="rn-btn" href="">
+                                            <span>Our Portfolio</span>
+                                        </a>
+                                    </div>
+
+                               
                             </div>
 
                         </div>

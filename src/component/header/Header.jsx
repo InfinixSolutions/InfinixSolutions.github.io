@@ -72,7 +72,7 @@ class Header extends Component{
                             </ul>
                         </nav>
                         <div className="header-btn">
-                            <a className="rn-btn" href="">
+                            <a className="rn-btn" href="/contact">
                                 <span>Get assistance</span>
                             </a>
                         </div>
