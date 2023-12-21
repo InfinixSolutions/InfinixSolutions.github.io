@@ -146,9 +146,11 @@ function ContactForm({props}) {
                 <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit Now</button>
             </div> 
 
-                    <p>
+            <br/>
+
+                    <p><i>
                     By opting into the web form above you are providing consent for Infinix Solutions to send you periodic text messages. Standard rates may apply. You can reply HELP at anytime or learn more. You may opt-out anytime by replying STOP.
-                    </p>
+                    </i></p>
 
             <div className="rn-form-group">
                 {result ? <Result /> : null}
