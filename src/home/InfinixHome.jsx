@@ -147,11 +147,11 @@ class InfinixHome extends Component{
                                     </div>
                                 </div>
 
-                                    <div className="col">
+                                    {/* <div className="col">
                                         <a className="rn-btn" href="">
                                             <span>Our Portfolio</span>
                                         </a>
-                                    </div>
+                                    </div> */}
 
                                
                             </div>
