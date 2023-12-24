@@ -4,6 +4,14 @@ import emailjs from 'emailjs-com';
 import { db } from '../../firebase';
 import { collection, addDoc } from "firebase/firestore";
 
+
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-N9637Z5YRC"; // OUR_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
+
+
 const Result = () => {
     return (
         <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
@@ -13,6 +21,9 @@ const Result = () => {
 
 
 function ContactForm({props}) {
+
+
+
     const [ result,showresult ] = useState(false);
     const [fullName, setFullName] = useState(null);
     const [emailAddress, setEmailAddress] = useState(null);
@@ -24,19 +35,19 @@ function ContactForm({props}) {
 
         if(id === "fullname"){
             setFullName(value);
-            console.log("HEYY HEYY HEYY Niggah")
+           
         }
         if(id === "email"){
             setEmailAddress(value);
-            console.log("Email now")
+           
         }
         if(id === "phone"){
             setPhoneNumber(value);
-            console.log("Phone Is being Changed " )
+            
         }
         if(id === "message"){
             setMessage(value);
-            console.log("Message niggah Message")
+           
         }
  
     
@@ -81,6 +92,10 @@ function ContactForm({props}) {
           showresult(true);
 
         //   Clear Input Lines from here 
+
+        // Send google analytics event
+
+        ReactGA.event({ category: 'Button', action: 'Clicked' })
     };
 
     setTimeout(() => {
@@ -143,7 +158,7 @@ function ContactForm({props}) {
             </div>
 
             <div className="rn-form-group">
-                <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit Now</button>
+                <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe"> Submit Now</button>
             </div> 
 
             <br/>

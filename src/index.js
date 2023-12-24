@@ -1,5 +1,5 @@
 // React Required
-import React, { Component } from 'react';
+import React,{ Component, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
 // Create Import File
@@ -40,14 +40,32 @@ import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+
+
+
+
+// Instantiate Google Analytcis object 
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-N9637Z5YRC"; // OUR_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
+
+
+
 class Root extends Component{
+
+
+
+
     render(){
+
+
         return(
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={InfinixHome}/>
-\
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
