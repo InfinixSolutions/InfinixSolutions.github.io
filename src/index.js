@@ -45,7 +45,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 // Instantiate Google Analytcis object 
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const TRACKING_ID = "G-N9637Z5YRC"; // OUR_TRACKING_ID
 

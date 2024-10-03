@@ -5,6 +5,8 @@ import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icon
 import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import ReactGA from "react-ga4"
+
 
 
 const ServiceList = [
@@ -115,6 +117,13 @@ const DevelopmentServiceList = [
 
 class Service extends Component{
     render(){
+
+        ReactGA.send({
+            hitType:"pageview",
+            page:"/",
+            title: "Service"
+        });
+        
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Service' />

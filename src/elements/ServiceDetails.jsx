@@ -5,9 +5,11 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-
+import ReactGA from "react-ga4"
 
 class ServiceDetails extends Component{
+
+    
     constructor () {
         super()
         this.state = {
@@ -19,7 +21,16 @@ class ServiceDetails extends Component{
         this.setState({isOpen: true})
     }
     render(){
+
+        ReactGA.send({
+            hitType:"pageview",
+            page:"/",
+            title: "ServiceDetails"
+        });
+
         return(
+
+
             <React.Fragment>
                 
                 {/* Start Pagehelmet  */}

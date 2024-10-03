@@ -8,8 +8,7 @@ import Header from "../component/header/Header";
 
 // Import google analytics 
 
-import useAnalyticsEventTracker from "../useAnalyticsEventTracker";
-
+import ReactGA from "react-ga4"
 
 
 import ServiceList from "../elements/service/ServiceList";
@@ -74,7 +73,16 @@ const portfolio_list = [
 
 
 class InfinixHome extends Component{
+
+   
     render(){
+        
+        ReactGA.send({
+            hitType:"pageview",
+            page:"/",
+            title: "Home"
+        });
+
         const PostList = BlogContent.slice(0 , 5);
         return(
             <Fragment>
@@ -92,7 +100,7 @@ class InfinixHome extends Component{
                                                 {value.category ? <span>{value.category}</span> : ''}
                                                 {value.title ? <h1 className="title theme-gradient">{value.title}</h1> : ''}
                                                 {value.description ? <p className="description">{value.description}</p> : ''}
-                                                {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" onClick={console.log("NIGAAAA")} href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
+                                                {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                             </div>
                                         </div>
                                     </div>
