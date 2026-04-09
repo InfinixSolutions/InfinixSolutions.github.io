@@ -12,11 +12,8 @@ import ReactGA from "react-ga4"
 
 
 import ServiceList from "../elements/service/ServiceList";
-import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
-import BlogContent from "../elements/blog/BlogContent";
-import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
@@ -31,7 +28,7 @@ const image1 =
         category: '',
         title: 'Infinix Solutions ',
         description: 'The right solutions, at the right time',
-        buttonText: 'Contact Us',
+        buttonText: 'Book a Discovery Call',
         buttonLink: '/contact'
     }
 ]
@@ -39,23 +36,51 @@ const image1 =
 const portfolio_list = [
     {
         image: 'image-1',
-        category: 'ETL & Data Transfer',
-        title: 'CommonApp and Salesforce Integration'
+        category: 'Data Engineering',
+        title: 'SS&E Data Integration Pipeline',
+        result: 'Built end-to-end Jenzabar -> SQL -> Python -> Canvas/Watermark pipeline enabling automated student success analytics'
     },
     {
         image: 'image-2',
-        category: 'Mobile App',
-        title: 'AON Gym App'
+        category: 'Systems Integration',
+        title: 'Canvas Enrollment & Term Sync Engine',
+        result: 'Automated course/term overrides via Canvas API resolving data mismatches and improving evaluation accuracy'
     },
     {
         image: 'image-3',
-        category: 'Automation',
-        title: 'Ecommerce Inventory System'
+        category: 'AI / Automation',
+        title: 'AI Content Automation System (n8n)',
+        result: 'Designed pipeline generating, reviewing, and publishing social content using OpenAI, Baserow, and Meta APIs'
     },
     {
         image: 'image-4',
-        category: 'Marketing',
-        title: 'AirBnB Marketing Funnel'
+        category: 'E-commerce / Growth',
+        title: 'Shopify -> Meta Ads Optimization Engine',
+        result: 'Built data-driven ad system with product feeds, event tracking, and creative automation to scale catalog performance'
+    },
+    {
+        image: 'image-1',
+        category: 'Data Engineering',
+        title: 'MongoDB Product Normalization Layer',
+        result: 'Created centralized product data model powering AI workflows, reporting, and multi-channel distribution'
+    },
+    {
+        image: 'image-2',
+        category: 'Automation / UX',
+        title: 'Telegram Approval Workflow System',
+        result: 'Implemented human-in-the-loop content approval system with dynamic state updates for AI-generated media'
+    },
+    {
+        image: 'image-3',
+        category: 'Data Engineering',
+        title: 'SQL-Based Student Financial Aggregation',
+        result: 'Engineered financial aggregation logic (balanceDue, transactions) for SS&E feeds ensuring data completeness and accuracy'
+    },
+    {
+        image: 'image-4',
+        category: 'AI / Media',
+        title: 'Multi-Platform AI Media Pipeline',
+        result: 'Integrated Runway, Photoroom, ElevenLabs, and FFmpeg to automate creation of short-form video content at scale'
     },
     // {
     //     image: 'image-3',
@@ -83,7 +108,6 @@ class InfinixHome extends Component{
             title: "Home"
         });
 
-        const PostList = BlogContent.slice(0 , 5);
         return(
             <Fragment>
                 <Helmet pageTitle="Infinix Solutions" />
@@ -150,6 +174,7 @@ class InfinixHome extends Component{
                                                         <div className="inner">
                                                             <p>{value.category}</p>
                                                             <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                                            <p>{value.result}</p>
                                                             <div className="portfolio-button">
                                                                 <a className="rn-btn" href="/portfolio-details">Case Study</a>
                                                             </div>

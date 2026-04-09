@@ -10,7 +10,7 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>These young men helped us solve an issue that would have cost us 10s of thousands in a very professional and efficient way.</p>
+                                        <p>They helped us solve a systems issue that could have cost us tens of thousands, and they handled it quickly and professionally.</p>
                                     </div>
                                     <div className="author-info">
                                         <h6><span>Ismael </span> - Dean, NAU</h6>
@@ -21,7 +21,7 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>They proposed me a solution that I never heard before and can't possibly operate my business without now.</p>
+                                        <p>They proposed a solution I had never considered, and now it is a core part of how my business runs day to day.</p>
                                     </div>
                                     <div className="author-info">
                                         <h6><span>Cliff </span> - Owner, AON GYM</h6>
@@ -31,63 +31,10 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Not just did they educate me about the topic of marketing, they helped setup a whole funnel that brings me most of my clients.</p>
+                                        <p>They did more than explain marketing. They built a complete funnel that now brings in most of our clients.</p>
                                     </div>
                                     <div className="author-info">
                                         <h6><span>Aby Ciss </span> - CEO, Birane MultiServices</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Johns Due </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>John Doe </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Amar Orthi </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Fatima Ma </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
                                     </div>
                                 </div>
                             </TabPanel>

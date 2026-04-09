@@ -91,8 +91,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider node scripts/start.js",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {

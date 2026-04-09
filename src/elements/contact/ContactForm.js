@@ -14,21 +14,22 @@ ReactGA.initialize(TRACKING_ID);
 
 const Result = () => {
     return (
-        <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
+        <p className="success-message">Your message has been sent successfully. Our team will contact you soon.</p>
     )
 }
 
 
 
-function ContactForm({props}) {
+function ContactForm() {
 
 
 
     const [ result,showresult ] = useState(false);
-    const [fullName, setFullName] = useState(null);
-    const [emailAddress, setEmailAddress] = useState(null);
-    const [message,setMessage] = useState(null);
-    const [phoneNumber,setPhoneNumber] = useState(null);
+    const [fullName, setFullName] = useState("");
+    const [emailAddress, setEmailAddress] = useState("");
+    const [message,setMessage] = useState("");
+    const [phoneNumber,setPhoneNumber] = useState("");
+    const [projectType, setProjectType] = useState("Website Development");
 
     const handleInputChange = (e) => {
         const {id , value} = e.target;
@@ -48,6 +49,10 @@ function ContactForm({props}) {
         if(id === "message"){
             setMessage(value);
            
+        }
+
+        if(id === "projectType"){
+            setProjectType(value);
         }
  
     
@@ -81,6 +86,7 @@ function ContactForm({props}) {
               phone_number:phoneNumber,
               full_name: fullName,
               note:message,
+                            project_type: projectType,
               origin:"Infinitix Website",
             });
             console.log("Document written with ID: ", docRef.id);
@@ -107,6 +113,7 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="text"
+                name="fullname"
                 value={fullName}
                 onChange={(e) => handleInputChange(e)}
                 id="fullname"
@@ -118,6 +125,7 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="email"
+                name="email"
                 value={emailAddress}
                 onChange={(e) => handleInputChange(e)}
                 id="email"
@@ -129,6 +137,7 @@ function ContactForm({props}) {
             <div className="rn-form-group">
                 <input 
                 type="text"
+                name="phone"
                 value={phoneNumber}
                 onChange={(e) => handleInputChange(e)}
                 id="phone"
@@ -147,11 +156,30 @@ function ContactForm({props}) {
             </div> */}
             
             <div className="rn-form-group">
+                <select
+                id="projectType"
+                name="project_type"
+                value={projectType}
+                onChange={(e) => handleInputChange(e)}
+                required
+                >
+                    <option value="Website Development">Website Development</option>
+                    <option value="Web App Development">Web App Development</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Automation">Automation</option>
+                    <option value="ETL & Data Transfer">ETL & Data Transfer</option>
+                    <option value="Marketing & Reporting">Marketing & Reporting</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div className="rn-form-group">
                 <textarea 
                 id="message"
+                name="message"
                 value={message}
                 onChange={(e) => handleInputChange(e)}
-                placeholder="Your Message"
+                placeholder="Tell us what you need, your timeline, and any constraints"
                 required
                 >
                 </textarea>

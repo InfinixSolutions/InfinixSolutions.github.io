@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/amir-boltaev-52a99213a/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/serigne-ousmane-kana/'},
 ]
 
 class Footer extends Component{
@@ -63,7 +61,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2023 Infinix Solutions. All Rights Reserved.</p>
+                                                <p>Copyright © {new Date().getFullYear()} Infinix Solutions. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

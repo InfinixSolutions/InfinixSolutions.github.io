@@ -1,11 +1,9 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: '#'},
-    {Social: <FaLinkedinIn /> , link: '#'},
-    {Social: <FaInstagram /> , link: '#'},
-    {Social: <FaTwitter /> , link: '#'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/amir-boltaev-52a99213a/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/serigne-ousmane-kana/'},
 ]
 
 const FooterTwo = () => {
@@ -34,7 +32,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2023 Infinix Solutions. All Rights Reserved.</p>
+                                <p>Copyright © {new Date().getFullYear()} Infinix Solutions. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>

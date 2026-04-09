@@ -10,7 +10,8 @@ class ContactTwo extends Component {
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Contact Us.</h2>
-                                <p className="description">We would be more than happy to hear your issue</p>
+                                <p className="description">Tell us about your goals and current challenges. We usually respond within one business day.</p>
+                                <p className="description">Share your project type and timeline so we can provide the right next steps quickly.</p>
                             </div>
                             <div className="form-wrapper">
                                 <ContactForm />
