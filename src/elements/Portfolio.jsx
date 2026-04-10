@@ -123,7 +123,6 @@ class Portfolio extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30">
                                         <h2 className="title">All Works</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
                             </div>

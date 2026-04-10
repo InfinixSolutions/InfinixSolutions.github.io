@@ -251,7 +251,6 @@ class InfinixHome extends Component{
                             <div className="col-lg-6">
                                 <div className="section-title text-left">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
                         </div>
