@@ -1,0 +1,33 @@
+.header-proposal-btn {
+  display: inline-block;
+  margin-right: 12px;
+  background: #1b8f3a;
+  border: 1px solid #1b8f3a;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 0 18px;
+  height: 42px;
+  line-height: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: all 0.3s ease;
+}
+
+.header-proposal-btn:hover {
+  background: #146e2d;
+  border-color: #146e2d;
+  color: #ffffff;
+}
+
+.header-action-group {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-proposal-btn {
+    display: none;
+  }
+}

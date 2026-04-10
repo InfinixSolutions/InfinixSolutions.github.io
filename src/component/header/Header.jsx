@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi";
+import "./header-custom.css";
 
 
 class Header extends Component{
@@ -66,12 +67,16 @@ class Header extends Component{
 
                                 <li><Link to="/service" >Services</Link></li>
                                 {/* <li><Link to="/" >Our Innovations</Link></li> */}
+                                <li><Link to="/proposal-access/niofar" >Proposal</Link></li>
                                 <li><Link to="/contact" >Contact</Link></li>
                                 <li><Link to="/about" >About</Link></li>
                                 
                             </ul>
                         </nav>
-                        <div className="header-btn">
+                        <div className="header-btn header-action-group">
+                            <Link className="header-proposal-btn" to="/proposal-access/niofar">
+                                Check Proposal
+                            </Link>
                             <a className="rn-btn" href="/contact">
                                 <span>Book a Discovery Call</span>
                             </a>

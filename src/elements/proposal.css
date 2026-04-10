@@ -1,0 +1,217 @@
+.proposal-hero {
+  padding: 170px 0 90px;
+  background: radial-gradient(circle at 20% 20%, #1f5f57 0%, #0c1a2d 45%, #06101d 100%);
+  color: #f8f9fc;
+}
+
+.proposal-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.proposal-hero h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  max-width: 920px;
+  margin-bottom: 16px;
+}
+
+.proposal-hero p {
+  max-width: 760px;
+  font-size: 19px;
+  opacity: 0.92;
+}
+
+.proposal-section {
+  padding: 80px 0;
+}
+
+.bg-light-panel {
+  background: linear-gradient(160deg, #f2f7f6 0%, #f9f5ec 100%);
+}
+
+.proposal-section h2 {
+  font-size: 34px;
+  margin-bottom: 26px;
+  color: #12263f;
+}
+
+.proposal-highlight-grid,
+.proposal-list-grid,
+.proposal-phase-grid,
+.proposal-offer-grid,
+.proposal-meta-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.proposal-highlight-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 28px;
+}
+
+.proposal-highlight {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #d4e4e1;
+  padding: 18px;
+  font-weight: 500;
+}
+
+.proposal-list-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.proposal-list-item {
+  background: #ffffff;
+  border-left: 4px solid #1f5f57;
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 8px 24px rgba(16, 45, 69, 0.08);
+}
+
+.proposal-phase-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.proposal-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #dce8e6;
+}
+
+.proposal-card h3 {
+  font-size: 21px;
+  margin: 8px 0 14px;
+}
+
+.proposal-timeline {
+  display: inline-block;
+  background: #eaf6f4;
+  color: #1f5f57;
+  border-radius: 999px;
+  padding: 5px 11px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.proposal-card ul,
+.proposal-offer-card ul,
+.proposal-meta-grid ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.proposal-card li,
+.proposal-offer-card li,
+.proposal-meta-grid li {
+  margin-bottom: 8px;
+  color: #31485f;
+}
+
+.proposal-offer-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.proposal-offer-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d6e0ec;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 28px rgba(14, 30, 44, 0.08);
+}
+
+.proposal-offer-featured {
+  border-color: #f6b845;
+  box-shadow: 0 18px 30px rgba(246, 184, 69, 0.24);
+}
+
+.offer-tag {
+  position: absolute;
+  top: -12px;
+  right: 18px;
+  background: #f6b845;
+  color: #1e2939;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.offer-price {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0f2740;
+  margin: 10px 0;
+}
+
+.proposal-reco {
+  font-size: 21px;
+  font-weight: 600;
+  background: #ffffff;
+  border-left: 5px solid #f6b845;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.proposal-meta-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.proposal-meta-grid > div {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #dce8e6;
+}
+
+.proposal-meta-grid h4 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #12263f;
+}
+
+.proposal-cta {
+  padding: 70px 0 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #102c45 0%, #1f5f57 100%);
+  color: #ffffff;
+}
+
+.proposal-cta h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.proposal-cta p {
+  margin-bottom: 28px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+  .proposal-hero {
+    padding-top: 135px;
+  }
+
+  .proposal-hero h1 {
+    font-size: 34px;
+  }
+
+  .proposal-highlight-grid,
+  .proposal-list-grid,
+  .proposal-phase-grid,
+  .proposal-offer-grid,
+  .proposal-meta-grid {
+    grid-template-columns: 1fr;
+  }
+}
