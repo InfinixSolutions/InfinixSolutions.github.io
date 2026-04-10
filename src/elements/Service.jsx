@@ -60,15 +60,6 @@ const MarketingServiceList = [
     }
 ]
 
-const CreativeAgencyServiceList = [
-    
-    {
-        icon: <FiMonitor />,
-        title: 'Content Creation- Photography Videograhpy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    }
-]
-
 const ItStrategyServiceList = [
     {
         icon: <FiCast />,
@@ -198,37 +189,7 @@ class Service extends Component{
                 </div>
                 {/* End Service Area */}
 
-                {/* Start Service Area */}
-                <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--5">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center mb--30">
-                                    <h2>Creative Agency</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            {CreativeAgencyServiceList.map( (val , i) => (
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
-                                        <div className="service service__style--2">
-                                            <div className="icon">
-                                                {val.icon}
-                                            </div>
-                                            <div className="content">
-                                                <h3 className="title">{val.title}</h3>
-                                                <p>{val.description}</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-                {/* End Service Area */}
+
 
               
 

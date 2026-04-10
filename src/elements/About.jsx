@@ -14,7 +14,7 @@ import Footer from "../component/footer/Footer";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        description = 'Infinix Solutions is a technology consulting firm specializing in automation, data engineering, and web development. We partner with businesses to streamline operations, integrate systems, and build the digital infrastructure needed to scale. From AI-driven workflows to custom web applications, we deliver solutions that create measurable results.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
@@ -31,7 +31,7 @@ class About extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/about-4.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -43,14 +43,14 @@ class About extends Component{
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Our Mission</h3>
+                                                    <p>We bridge the gap between business goals and technology — designing intelligent systems that reduce manual effort and unlock new possibilities for our clients.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">What We Do</h3>
+                                                    <p>From data pipelines and systems integration to marketing automation and web development, we cover the full spectrum of modern technology services.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -68,7 +68,7 @@ class About extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
+                                    <h3 className="fontWeight500">By The Numbers</h3>
                                 </div>
                             </div>
                         </div>
@@ -82,14 +82,14 @@ class About extends Component{
                     <div className="inner">
                         <div className="content-wrapper">
                             <div className="content">
-                                <h4 className="theme-gradient">Find Your Work Now</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                                <a className="rn-btn btn-white" href="/about">Get Started</a>
+                                <h4 className="theme-gradient">More About Our Work</h4>
+                                <p>From data pipelines and AI automation to web platforms and systems integrations — explore the projects where we have made a measurable impact for our clients.</p>
+                                <a className="rn-btn btn-white" href="/portfolio">View Our Projects</a>
                             </div>
                         </div>
                         <div className="thumbnail">
                             <div className="image">
-                                <img src="/assets/images/about/finding-us-01.png" alt="Finding Images"/>
+                                <img src="/assets/images/about/about-3-right.png" alt="Our Work"/>
                             </div>
                         </div>
                     </div>
@@ -108,21 +108,19 @@ class About extends Component{
                             </div>
                         </div>
                         <div className="row">
-                            
+
                             {/* Start Single Team  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
+                                        <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Osman Kana"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
+                                        <h4 className="title">Osman Kana</h4>
+                                        <p className="designation">Software Engineer &amp; Solution Architect</p>
                                     </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                    <ul className="social-icon">
+                                        <li><a href="https://www.linkedin.com/in/serigne-ousmane-kana/"><FaLinkedinIn /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -132,35 +130,14 @@ class About extends Component{
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
+                                        <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Amir Boltaev"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">BM. Alamin</h4>
-                                        <p className="designation">Sr. Web Developer</p>
+                                        <h4 className="title">Amir Boltaev</h4>
+                                        <p className="designation">Data Engineer &amp; Solution Architect</p>
                                     </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
-
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                    <ul className="social-icon">
+                                        <li><a href="https://www.linkedin.com/in/amir-boltaev-52a99213a/"><FaLinkedinIn /></a></li>
                                     </ul>
                                 </div>
                             </div>
