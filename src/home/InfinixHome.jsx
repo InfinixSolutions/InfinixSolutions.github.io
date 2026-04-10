@@ -11,7 +11,7 @@ import Header from "../component/header/Header";
 import ReactGA from "react-ga4"
 
 
-import ServiceList from "../elements/service/ServiceList";
+
 import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import FooterTwo from "../component/footer/FooterTwo";
@@ -59,25 +59,25 @@ const portfolio_list = [
         result: 'Built data-driven ad system with product feeds, event tracking, and creative automation to scale catalog performance'
     },
     {
-        image: 'image-1',
+        image: 'image-5',
         category: 'Data Engineering',
         title: 'MongoDB Product Normalization Layer',
         result: 'Created centralized product data model powering AI workflows, reporting, and multi-channel distribution'
     },
     {
-        image: 'image-2',
+        image: 'image-6',
         category: 'Automation / UX',
         title: 'Telegram Approval Workflow System',
         result: 'Implemented human-in-the-loop content approval system with dynamic state updates for AI-generated media'
     },
     {
-        image: 'image-3',
+        image: 'image-7',
         category: 'Data Engineering',
         title: 'SQL-Based Student Financial Aggregation',
         result: 'Engineered financial aggregation logic (balanceDue, transactions) for SS&E feeds ensuring data completeness and accuracy'
     },
     {
-        image: 'image-4',
+        image: 'image-8',
         category: 'AI / Media',
         title: 'Multi-Platform AI Media Pipeline',
         result: 'Integrated Runway, Photoroom, ElevenLabs, and FFmpeg to automate creation of short-form video content at scale'
@@ -136,17 +136,7 @@ class InfinixHome extends Component{
                 {/* End Slider Area   */}
 
 
-                {/* Start Service Area  */}
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--1">
-                    <div className="container">
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                {/* End Service Area  */} 
+ 
 
                 {/* Start Portfolio Area */}
                 <div className="portfolio-area pt--120 pb--140 bg_color--5">
