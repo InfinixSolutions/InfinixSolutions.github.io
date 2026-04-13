@@ -13,6 +13,7 @@ function OfferSelector({ offerKeys, offerConfigs, selectedOption, onSelect }) {
             key={offerKey}
             role="tab"
             aria-selected={isActive}
+            aria-label={`Select ${offer.name} to update proposal details`}
             className={[
               "proposal-selector-button",
               `proposal-selector-${offer.tone}`,
@@ -36,6 +37,9 @@ function OfferSelector({ offerKeys, offerConfigs, selectedOption, onSelect }) {
               {`(final range: ${offer.range} depending on scope confirmation)`}
             </span>
             <span className="proposal-selector-description">{offer.description}</span>
+            <span className="proposal-selector-action">
+              {isActive ? "Currently selected" : "Click to view details"}
+            </span>
           </button>
         );
       })}

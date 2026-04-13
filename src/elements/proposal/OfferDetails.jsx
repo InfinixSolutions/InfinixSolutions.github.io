@@ -14,6 +14,9 @@ function OfferDetails({
       <p className="proposal-pricing-note">
         Final pricing will be confirmed after technical validation and alignment on scope.
       </p>
+      <p className="proposal-selector-hint">
+        Click an option card to instantly update scope, delivery phases, and recommendations.
+      </p>
       <OfferSelector
         offerKeys={offerKeys}
         offerConfigs={offerConfigs}
