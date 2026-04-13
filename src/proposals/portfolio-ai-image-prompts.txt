@@ -1,0 +1,71 @@
+PORTFOLIO AI IMAGE PROMPTS
+For Infinix Solutions portfolio visuals
+
+Recommended visual direction
+- Format: 4:5 vertical for portfolio cards
+- Style: cinematic productized tech illustration
+- Mood: premium, strategic, data-driven, high-trust B2B
+- Color palette: deep navy, teal, emerald, soft amber accents, graphite, clean white highlights
+- Composition: layered dashboards, flowing data paths, subtle holographic UI, modern enterprise environments
+- Avoid: cheesy robots, generic stock-office scenes, cartoon icons, low-detail SaaS blobs, cluttered UI, childish AI imagery
+
+Global base prompt
+Create a premium editorial-style technology illustration for a modern B2B digital transformation company. The image should feel sophisticated, enterprise-grade, and strategic, with layered data interfaces, cinematic lighting, glassmorphism panels, subtle depth, and realistic digital systems visualization. Clean composition, high contrast, refined typography placeholders, elegant UI fragments, no people posing for camera, no cheesy robots, no generic stock-photo look, no oversaturated neon. Emphasize systems thinking, data flow, automation, and productized technical delivery. 4:5 aspect ratio.
+
+Negative prompt
+cartoon, anime, smiling call-center agents, handshake stock photo, cheap 3D render, childish interface, random code screenshots, cyberpunk overload, purple neon spam, blurry text, distorted hands, obvious AI artifacts, watermark, low contrast, flat composition
+
+1) SS&E Data Integration Pipeline
+Filename suggestion: portfolio-ai-01-data-pipeline.jpg
+Prompt:
+Create a premium enterprise data integration illustration showing multiple academic systems converging into a unified intelligence pipeline. Visualize student information data flowing from legacy platforms into SQL layers, Python transformation nodes, and downstream analytics dashboards for Canvas and Watermark reporting. Use abstract but realistic data architecture visuals: pipeline streams, modular ETL blocks, quality checks, academic performance indicators, and clean monitoring dashboards. Cinematic deep navy and teal palette, elegant enterprise UI overlays, strategic and trustworthy tone, no people, no cheesy icons, 4:5.
+
+2) Canvas Enrollment and Term Sync Engine
+Filename suggestion: portfolio-ai-02-canvas-sync.jpg
+Prompt:
+Create a polished systems integration illustration focused on synchronization between academic platforms and LMS environments. Show structured workflow lanes, API connections, enrollment records, term mapping logic, and override rules feeding into a clean educational operations dashboard. The image should communicate reliability, automation, and reduced administrative friction. Minimal but premium interface layers, soft glow accents, dark professional palette with teal highlights, enterprise SaaS editorial quality, 4:5.
+
+3) AI Content Automation System
+Filename suggestion: portfolio-ai-03-ai-content-automation.jpg
+Prompt:
+Create a premium AI automation illustration showing an end-to-end content workflow: idea generation, review queue, approval states, publishing channels, and social media outputs. Show connected modules representing AI generation, human review, database storage, and publishing APIs. Use cinematic lighting, layered control panels, content cards, scheduling timelines, and intelligent workflow arrows. The result should feel operational, modern, and scalable rather than flashy. Deep graphite, emerald, and muted amber accents, 4:5.
+
+4) Shopify to Meta Ads Optimization Engine
+Filename suggestion: portfolio-ai-04-ecommerce-ads.jpg
+Prompt:
+Create a sophisticated e-commerce growth systems illustration showing a product catalog feeding dynamic ad optimization workflows. Include clean product feed cards, campaign metrics, conversion signals, event tracking nodes, and performance dashboards in a premium editorial tech aesthetic. Focus on business intelligence, automation, and measurable growth. Rich dark background, crisp interface cards, tasteful teal and green highlights, modern enterprise look, 4:5.
+
+5) MongoDB Product Normalization Layer
+Filename suggestion: portfolio-ai-05-product-normalization.jpg
+Prompt:
+Create a high-end data architecture illustration centered on product data normalization and structured knowledge layers. Show messy incoming product records transforming into standardized schemas, taxonomy systems, unified attributes, and multi-channel outputs for AI and reporting use cases. Clean data modeling motifs, structured database visuals, connected entity maps, and elegant UI abstractions. Strategic, modern, enterprise-grade style with navy, slate, teal, and white tones, 4:5.
+
+6) Telegram Approval Workflow System
+Filename suggestion: portfolio-ai-06-telegram-approval.jpg
+Prompt:
+Create a premium workflow automation illustration showing a human-in-the-loop approval system for generated content. Visualize message threads, approval gates, status changes, media previews, and automated routing between content generation and publishing systems. The image should emphasize clarity, control, and operational efficiency. Use sleek interface panels, message-inspired UI fragments, and subtle animation energy in a refined business-tech style. Dark polished palette, teal accents, understated amber highlights, 4:5.
+
+7) SQL-Based Student Financial Aggregation
+Filename suggestion: portfolio-ai-07-financial-aggregation.jpg
+Prompt:
+Create a sophisticated financial data engineering illustration showing multiple transaction streams aggregating into a unified academic finance dashboard. Include balance logic, transaction flows, reconciliation layers, summary tables, and trust-oriented financial interface visuals. Avoid banking clichés. Focus on precision, completeness, and data reliability. Premium B2B editorial look, dark blue and graphite palette, subtle green highlights, clean architecture composition, 4:5.
+
+8) Multi-Platform AI Media Pipeline
+Filename suggestion: portfolio-ai-08-ai-media-pipeline.jpg
+Prompt:
+Create a premium media automation illustration showing an AI-powered multi-platform content production pipeline. Visualize video generation, image enhancement, voice synthesis, editing workflows, and publishing outputs connected through an orchestrated system. Include media frames, waveform snippets, timeline fragments, rendering nodes, and performance outputs in a refined, cinematic interface style. The image should feel cutting-edge but business credible, with deep navy, charcoal, and elegant gold-green accents, 4:5.
+
+Best model guidance
+- Midjourney: use the project-specific prompt + "--ar 4:5 --stylize 150"
+- Flux: keep prompts close to the wording above and increase realism moderately
+- SDXL: use the global base prompt first, append the project-specific prompt, then add the negative prompt
+
+Replacement mapping
+- image-1 -> portfolio-ai-01-data-pipeline.jpg
+- image-2 -> portfolio-ai-02-canvas-sync.jpg
+- image-3 -> portfolio-ai-03-ai-content-automation.jpg
+- image-4 -> portfolio-ai-04-ecommerce-ads.jpg
+- image-5 -> portfolio-ai-05-product-normalization.jpg
+- image-6 -> portfolio-ai-06-telegram-approval.jpg
+- image-7 -> portfolio-ai-07-financial-aggregation.jpg
+- image-8 -> portfolio-ai-08-ai-media-pipeline.jpg

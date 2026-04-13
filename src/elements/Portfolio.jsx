@@ -35,25 +35,25 @@ const list = [
         result: 'Built data-driven ad system with product feeds, event tracking, and creative automation to scale catalog performance'
     },
     {
-        image: 'image-1',
+        image: 'image-5',
         category: 'Data Engineering',
         title: 'MongoDB Product Normalization Layer',
         result: 'Created centralized product data model powering AI workflows, reporting, and multi-channel distribution'
     },
     {
-        image: 'image-2',
+        image: 'image-6',
         category: 'Automation / UX',
         title: 'Telegram Approval Workflow System',
         result: 'Implemented human-in-the-loop content approval system with dynamic state updates for AI-generated media'
     },
     {
-        image: 'image-3',
+        image: 'image-7',
         category: 'Data Engineering',
         title: 'SQL-Based Student Financial Aggregation',
         result: 'Engineered financial aggregation logic (balanceDue, transactions) for SS&E feeds ensuring data completeness and accuracy'
     },
     {
-        image: 'image-4',
+        image: 'image-8',
         category: 'AI / Media',
         title: 'Multi-Platform AI Media Pipeline',
         result: 'Integrated Runway, Photoroom, ElevenLabs, and FFmpeg to automate creation of short-form video content at scale'
