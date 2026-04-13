@@ -19,7 +19,7 @@ function ProposalNiofar() {
   return (
     <Fragment>
       <PageHelmet pageTitle="Proposition Niofar Capital" />
-      <Header logo="dark" color="color-black" />
+      <Header logo="light" color="color-white proposal-header" />
 
       <div className={`proposal-page proposal-tone-${currentOffer.tone}`}>
         <div className="proposal-hero">
