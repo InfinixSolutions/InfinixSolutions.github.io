@@ -20,6 +20,7 @@ import ProposalNiofar from "./elements/ProposalNiofar";
 import ProposalAccess from "./elements/ProposalAccess";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import CaseStudy from "./elements/CaseStudy";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -54,6 +55,18 @@ const TRACKING_ID = "G-N9637Z5YRC"; // OUR_TRACKING_ID
 
 ReactGA.initialize(TRACKING_ID);
 
+function RedirectHandler({ children }) {
+    useEffect(() => {
+        const redirect = window.sessionStorage.getItem('redirect');
+        if (redirect) {
+            window.sessionStorage.removeItem('redirect');
+            window.history.replaceState(null, '', redirect);
+        }
+    }, []);
+
+    return children;
+}
+
 
 
 class Root extends Component{
@@ -65,7 +78,7 @@ class Root extends Component{
 
 
         return(
-            <BrowserRouter basename={'/'}>
+            <BrowserRouter basename="/">
                 <PageScrollTop>
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={InfinixHome}/>
@@ -94,6 +107,7 @@ class Root extends Component{
                             }
                         />
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/case-study/:slug`} component={CaseStudy}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 
@@ -123,5 +137,10 @@ class Root extends Component{
     }
 }
 
-ReactDOM.render(<Root/>, document.getElementById('root'));
+ReactDOM.render(
+    <RedirectHandler>
+        <Root/>
+    </RedirectHandler>,
+    document.getElementById('root')
+);
 serviceWorker.register();
