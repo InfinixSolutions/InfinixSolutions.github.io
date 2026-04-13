@@ -1,5 +1,5 @@
 NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
-Option A - MVP Lean
+Option A - Lean Version
 
 Proposed Budget
 $8,000
@@ -85,5 +85,10 @@ Mitigation: lock first version variables early
 Risk: stakeholder expectation mismatch
 Mitigation: weekly demo checkpoints
 
-8) Commercial Notes
+8) Payment Terms
+- 50% on signature
+- 30% on delivery of functional prototype
+- 20% on launch
+
+9) Commercial Notes
 This option is optimized for speed and proof of traction. It is the best path when time-to-demo matters more than advanced feature depth.

@@ -2,9 +2,9 @@ import React from "react";
 import OfferSelector from "./OfferSelector";
 
 const pdfFileByOption = {
-  A: "/proposals/niofar-option-a-mvp-lean.pdf",
-  B: "/proposals/niofar-option-b-mvp-professional.pdf",
-  C: "/proposals/niofar-option-c-ai-premium.pdf"
+  A: "/proposals/niofar-option-a-lean-version.pdf",
+  B: "/proposals/niofar-option-b-investor-ready.pdf",
+  C: "/proposals/niofar-option-c-ai-enhanced.pdf"
 };
 
 function OfferDetails({

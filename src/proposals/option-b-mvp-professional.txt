@@ -1,12 +1,12 @@
 NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
-Option B - MVP Professionnel (Recommended)
+Option B - Investor-Ready Platform (Recommended)
 
 Proposed Budget
-$19,500
-(final range: $17,000 - $23,000 depending on scope confirmation)
+$13,500
+(final range: $12,000 - $17,000 depending on scope confirmation)
 
 Positioning
-Balanced professional MVP for investor credibility, strong UX, and reliable technical foundation.
+The recommended option: the right balance between product quality, delivery speed, and investor-facing credibility.
 
 1) Objective
 Deliver a production-grade MVP that supports real investor demonstrations and commercial conversations with a credible product experience.
@@ -76,10 +76,11 @@ Weeks 4-5
 - Simulator completion
 - Secure documents and lead flow
 
-Final Stabilization
-- QA hardening
-- Responsive polish
-- Demo readiness and production preparation
+Phase 4 - Stabilisation (Before May 20)
+- Corrections and final responsive pass
+- Error/loading state handling
+- Performance optimization
+- Demo preparation and production launch
 
 6) Quality and Validation
 - Functional validation per module
@@ -97,5 +98,10 @@ Mitigation: model validation in early phase
 Risk: sensitive document handling
 Mitigation: secure view-only architecture and token controls
 
-8) Commercial Notes
+8) Payment Terms
+- 40% on signature
+- 35% on delivery of MVP skeleton
+- 25% on finalization
+
+9) Commercial Notes
 This is the recommended option because it balances delivery speed, product quality, and investor-facing credibility with controlled implementation risk.

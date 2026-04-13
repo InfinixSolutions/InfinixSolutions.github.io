@@ -1,12 +1,12 @@
 NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
-Option C - AI Premium
+Option C - Advanced Platform (AI-Enhanced)
 
 Proposed Budget
-$32,000
-(final range: $28,000 - $40,000 depending on scope confirmation)
+$21,000
+(final range: $19,000 - $26,000 depending on scope confirmation)
 
 Positioning
-Premium, future-ready platform with AI-assisted analysis to differentiate the investor experience.
+Premium, future-ready platform with AI-assisted analysis to differentiate and elevate the investor experience.
 
 1) Objective
 Deliver a high-end MVP that includes full core product capabilities plus an AI layer for document analysis, smarter insights, and stronger strategic positioning.
@@ -98,5 +98,11 @@ Mitigation: human-in-the-loop validation and confidence thresholds
 Risk: data readiness
 Mitigation: prepare representative document corpus early
 
-8) Commercial Notes
+8) Payment Terms
+- 40% on signature
+- 30% after core product delivery
+- 20% after AI integration
+- 10% on finalization
+
+9) Commercial Notes
 This option is designed for strategic differentiation. It is best when Niofar wants immediate premium market perception and an AI-enabled investor narrative.
