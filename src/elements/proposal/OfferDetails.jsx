@@ -1,6 +1,12 @@
 import React from "react";
 import OfferSelector from "./OfferSelector";
 
+const pdfFileByOption = {
+  A: "/proposals/niofar-option-a-mvp-lean.pdf",
+  B: "/proposals/niofar-option-b-mvp-professional.pdf",
+  C: "/proposals/niofar-option-c-ai-premium.pdf"
+};
+
 function OfferDetails({
   offer,
   offerConfigs,
@@ -23,6 +29,23 @@ function OfferDetails({
         selectedOption={selectedOption}
         onSelect={onSelect}
       />
+
+      <div className="proposal-download-row">
+        <a
+          className="proposal-download-btn"
+          href={pdfFileByOption[offer.key]}
+          download
+        >
+          Download This Option (PDF)
+        </a>
+        <a
+          className="proposal-download-btn proposal-download-btn-secondary"
+          href="/proposals/niofar-pricing-pack.zip"
+          download
+        >
+          Download All 3 (ZIP)
+        </a>
+      </div>
 
       <div className={[
         "proposal-offer-focus",

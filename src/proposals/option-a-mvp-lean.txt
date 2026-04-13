@@ -1,0 +1,89 @@
+NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
+Option A - MVP Lean
+
+Proposed Budget
+$8,000
+(final range: $6,000 - $10,000 depending on scope confirmation)
+
+Positioning
+Fast validation prototype for early investor conversations.
+
+1) Objective
+Deliver a lean but credible investment platform MVP to validate demand, test positioning, and gather feedback quickly.
+
+2) Technical Breakdown
+Frontend
+- React single-page application
+- Core pages: Home, About, Contact, Project Listing, Project Detail
+- Basic responsive behavior (desktop + mobile)
+- Simple bilingual-ready content structure
+
+Backend
+- Lightweight REST API for authentication and project content
+- Session-based access control for protected pages
+- Basic data model for projects and investment assumptions
+- Minimal error handling and request validation
+
+Data and Documents
+- Basic secure document viewer flow (view-only)
+- Simple project metadata storage
+- No advanced indexing or document intelligence
+
+Security
+- Basic auth/session controls
+- Protected route gating
+- Standard input validation on critical forms
+
+DevOps and Delivery
+- Single deployment environment
+- Build and release configuration
+- Basic analytics/events (optional lightweight setup)
+
+3) Scope Included
+- Institutional pages (essential set)
+- Sign up / login / session
+- Project catalog with simple search/filter
+- Project detail page template
+- Basic investment simulator (manual assumptions)
+- Protected document viewing
+
+4) Explicit Exclusions
+- Admin panel and advanced operations workflows
+- KYC / AML compliance system
+- Payment execution
+- CRM and advanced back-office tools
+- AI features
+
+5) Delivery Plan
+Week 1
+- Functional framing
+- Technical setup
+- Core data model and API contracts
+
+Weeks 2-3
+- Frontend + auth + projects
+- Basic simulator implementation
+- Document access workflow
+
+Week 4
+- QA and fixes
+- Responsive polishing
+- Demo handover
+
+6) Quality and Validation
+- Smoke tests on key flows
+- Cross-device checks for main pages
+- UAT walkthrough with client stakeholders
+
+7) Risks and Mitigation
+Risk: tight scope and timeline
+Mitigation: strict MVP backlog and fast decisions
+
+Risk: simulator complexity growth
+Mitigation: lock first version variables early
+
+Risk: stakeholder expectation mismatch
+Mitigation: weekly demo checkpoints
+
+8) Commercial Notes
+This option is optimized for speed and proof of traction. It is the best path when time-to-demo matters more than advanced feature depth.

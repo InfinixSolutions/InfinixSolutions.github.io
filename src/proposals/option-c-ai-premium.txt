@@ -1,0 +1,102 @@
+NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
+Option C - AI Premium
+
+Proposed Budget
+$32,000
+(final range: $28,000 - $40,000 depending on scope confirmation)
+
+Positioning
+Premium, future-ready platform with AI-assisted analysis to differentiate the investor experience.
+
+1) Objective
+Deliver a high-end MVP that includes full core product capabilities plus an AI layer for document analysis, smarter insights, and stronger strategic positioning.
+
+2) Technical Breakdown
+Frontend
+- Premium UI/UX with advanced information hierarchy
+- Full investor journey with richer guidance and interaction states
+- Responsive and bilingual-ready architecture
+- Enhanced dashboards and insight surfaces
+
+Backend
+- Modular REST API with stronger domain boundaries
+- Secure auth/session and protected resource access
+- Service-oriented structure ready for AI feature integration
+- Traceable logging and observability for sensitive workflows
+
+AI Layer
+- AI-assisted document parsing for faster review of deal materials
+- Smart investment insights generated from project inputs
+- AI-powered simulator recommendations based on scenario patterns
+- Automated deal analysis summaries for internal review and investor support
+
+Simulator
+- Advanced assumptions and scenario guidance
+- Recommendation-oriented output layer
+- Better explanation UX for non-technical users
+
+Documents and Knowledge Flow
+- Structured ingestion pattern for documents
+- View-only secure distribution for controlled materials
+- Metadata extraction strategy for AI-assisted retrieval and summaries
+
+Security and Governance
+- Guardrails for AI outputs (human validation in loop)
+- Access control for sensitive AI/document outputs
+- Logging of critical AI-assisted interactions
+
+DevOps and Delivery
+- Deployment strategy for core app plus AI services
+- Performance budget and monitoring setup
+- Foundation for future model upgrades and workflow automation
+
+3) Scope Included
+- Everything from Option B core platform
+- AI document parsing assistance
+- AI simulator recommendation layer
+- Automated deal summary generation
+- Advanced analytics and future-ready architecture decisions
+
+4) Explicit Exclusions
+- Fully autonomous investment decisioning
+- Payment execution and transaction settlement
+- Native mobile apps
+- Full enterprise back-office suite
+
+5) Delivery Plan
+Week 1
+- Product and AI use-case framing
+- Security/governance constraints definition
+- Architecture decisions for AI integration
+
+Weeks 2-4
+- Core product build (frontend + backend + secure documents)
+- Simulator base and premium UX layer
+
+Weeks 5-6
+- AI module integration
+- Document parsing, insights, and recommendation flows
+
+Weeks 7-8
+- Validation and tuning of AI outputs
+- UX polish and performance optimization
+- Executive demo and launch readiness
+
+6) Quality and Validation
+- Functional and integration testing across core + AI modules
+- Output-quality review with human validation checkpoints
+- Security review for access to sensitive artifacts
+- Final stakeholder walkthrough and acceptance
+
+7) Risks and Mitigation
+Risk: AI feature scope expansion
+Mitigation: define phase-locked AI use cases and acceptance criteria
+
+Risk: output quality variance
+Mitigation: human-in-the-loop validation and confidence thresholds
+
+Risk: data readiness
+Mitigation: prepare representative document corpus early
+
+8) Commercial Notes
+This option is designed for strategic differentiation. It is best when Niofar wants immediate premium market perception and an AI-enabled investor narrative.

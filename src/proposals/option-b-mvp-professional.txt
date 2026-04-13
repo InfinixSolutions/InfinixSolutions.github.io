@@ -1,0 +1,101 @@
+NIOFAR CAPITAL - CLIENT-SPECIFIC PROPOSAL
+Option B - MVP Professionnel (Recommended)
+
+Proposed Budget
+$19,500
+(final range: $17,000 - $23,000 depending on scope confirmation)
+
+Positioning
+Balanced professional MVP for investor credibility, strong UX, and reliable technical foundation.
+
+1) Objective
+Deliver a production-grade MVP that supports real investor demonstrations and commercial conversations with a credible product experience.
+
+2) Technical Breakdown
+Frontend
+- React application with structured component architecture
+- Full core page set: Home, About, How It Works, Contact, Project Listing, Project Detail
+- Improved UX flows for discovery, reading, and qualification
+- Responsive design and bilingual structure (FR/EN ready)
+
+Backend
+- Structured REST API and modular service layers
+- Secure authentication and session lifecycle handling
+- Role-aware access controls for sensitive content
+- Better validation, error states, and API reliability
+
+Investment Simulator
+- Dynamic calculator for key variables
+- Support for ROI-style scenarios and business assumptions
+- Clear UI states for calculation outputs and errors
+
+Documents and Access
+- Secure view-only document access flow
+- Tokenized/protected document delivery pattern
+- Access event logging for audit trail preparation
+
+Security
+- Access control enforcement across protected routes
+- API-level guards for protected resources
+- Logging strategy for critical events
+
+DevOps and Delivery
+- Build/release flow for stable deployments
+- Performance-focused frontend optimizations
+- Analytics-ready instrumentation for user behavior signals
+
+3) Scope Included
+- Complete institutional pages
+- Authentication and session management
+- Project navigation with filters and search
+- Detailed project pages and maturity model structure
+- Robust simulator module
+- Secure deal-book viewing flow
+- Investor intent capture and lead routing logic
+- Logging for future audit needs
+
+4) Explicit Exclusions
+- KYC / AML full implementation
+- Payment transactions
+- Full CRM and advanced operations suite
+- Native mobile apps
+
+5) Delivery Plan
+Week 1
+- Product framing
+- Architecture and API specification
+- Simulator model alignment
+
+Weeks 2-3
+- Core product skeleton
+- Main pages and auth
+- Project listing and detail structure
+
+Weeks 4-5
+- Full backend integration
+- Simulator completion
+- Secure documents and lead flow
+
+Final Stabilization
+- QA hardening
+- Responsive polish
+- Demo readiness and production preparation
+
+6) Quality and Validation
+- Functional validation per module
+- Regression pass on critical investor journeys
+- Performance and UX optimization pass
+- Structured UAT with stakeholder sign-off
+
+7) Risks and Mitigation
+Risk: compressed delivery timeline
+Mitigation: phased releases and strict prioritization
+
+Risk: simulator rule changes
+Mitigation: model validation in early phase
+
+Risk: sensitive document handling
+Mitigation: secure view-only architecture and token controls
+
+8) Commercial Notes
+This is the recommended option because it balances delivery speed, product quality, and investor-facing credibility with controlled implementation risk.

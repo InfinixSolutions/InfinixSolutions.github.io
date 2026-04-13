@@ -304,6 +304,55 @@
   color: #1c4669;
 }
 
+.proposal-download-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 4px 0 24px;
+}
+
+.proposal-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #0f2740 0%, #1f5f57 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 39, 64, 0.24);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
+}
+
+.proposal-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(15, 39, 64, 0.28);
+  text-decoration: none;
+}
+
+.proposal-download-btn:focus-visible {
+  outline: 3px solid rgba(31, 95, 87, 0.38);
+  outline-offset: 2px;
+}
+
+.proposal-download-btn-secondary {
+  background: #ecf2f8;
+  color: #17314c;
+  box-shadow: none;
+  border: 1px solid #cdd9e6;
+}
+
+.proposal-download-btn-secondary:hover {
+  box-shadow: none;
+  opacity: 0.92;
+}
+
 .proposal-offer-focus {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -593,5 +642,10 @@
 
   .proposal-selector-button {
     padding: 18px;
+  }
+
+  .proposal-download-row {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
