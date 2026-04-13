@@ -1,7 +1,15 @@
+.proposal-page {
+  background:
+    radial-gradient(circle at top right, rgba(246, 184, 69, 0.14), transparent 28%),
+    linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+  transition: background 0.35s ease;
+}
+
 .proposal-hero {
   padding: 170px 0 90px;
   background: radial-gradient(circle at 20% 20%, #1f5f57 0%, #0c1a2d 45%, #06101d 100%);
   color: #f8f9fc;
+  transition: background 0.35s ease;
 }
 
 .proposal-badge {
@@ -32,6 +40,10 @@
   padding: 80px 0;
 }
 
+.proposal-pricing-section {
+  padding-top: 56px;
+}
+
 .bg-light-panel {
   background: linear-gradient(160deg, #f2f7f6 0%, #f9f5ec 100%);
 }
@@ -45,10 +57,195 @@
 .proposal-highlight-grid,
 .proposal-list-grid,
 .proposal-phase-grid,
-.proposal-offer-grid,
 .proposal-meta-grid {
   display: grid;
   gap: 18px;
+}
+
+.proposal-content-animate {
+  animation: proposalFadeUp 0.45s ease;
+}
+
+.proposal-selector {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 26px;
+}
+
+.proposal-selector-button {
+  position: relative;
+  appearance: none;
+  border: 1px solid #d6e0ec;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(16, 45, 69, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.proposal-selector-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(16, 45, 69, 0.12);
+}
+
+.proposal-selector-button.is-active {
+  transform: translateY(-4px);
+}
+
+.proposal-selector-light.is-active {
+  border-color: #1f5f57;
+}
+
+.proposal-selector-standard.is-active {
+  border-color: #f6b845;
+  box-shadow: 0 18px 34px rgba(246, 184, 69, 0.22);
+}
+
+.proposal-selector-premium {
+  background: linear-gradient(180deg, #ffffff 0%, #fbf7ef 100%);
+}
+
+.proposal-selector-premium.is-active {
+  border-color: #c38b2d;
+  box-shadow: 0 20px 36px rgba(195, 139, 45, 0.24);
+}
+
+.proposal-selector-topline,
+.proposal-offer-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.proposal-selector-key {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #edf3f9;
+  color: #17314c;
+}
+
+.proposal-selector-title {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #12263f;
+  margin-bottom: 8px;
+}
+
+.proposal-budget-label {
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7d90;
+}
+
+.proposal-selector-price-main,
+.offer-price-main {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f2740;
+  line-height: 1.05;
+}
+
+.proposal-selector-price-range,
+.offer-price-range {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6b7d90;
+}
+
+.proposal-selector-description {
+  display: block;
+  color: #51687f;
+}
+
+.proposal-offer-focus {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 24px;
+  padding: 30px;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid #d6e0ec;
+  box-shadow: 0 18px 40px rgba(14, 30, 44, 0.1);
+}
+
+.proposal-offer-focus-light {
+  border-color: #d4e4e1;
+}
+
+.proposal-offer-focus-standard {
+  border-color: #f6b845;
+}
+
+.proposal-offer-focus-premium {
+  border-color: #c38b2d;
+  background: linear-gradient(145deg, #fffdf8 0%, #f8f1df 100%);
+  box-shadow: 0 22px 44px rgba(195, 139, 45, 0.18);
+}
+
+.proposal-offer-focus-copy h3 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.proposal-pricing-note {
+  max-width: 760px;
+  margin: -6px 0 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #5f7084;
+}
+
+.proposal-offer-description {
+  font-size: 19px;
+  font-weight: 600;
+  color: #17314c;
+  margin-bottom: 10px;
+}
+
+.proposal-offer-fit {
+  color: #51687f;
+  max-width: 580px;
+  margin-bottom: 0;
+}
+
+.proposal-offer-focus-points {
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 18px;
+  padding: 24px;
+  border: 1px solid rgba(18, 38, 63, 0.08);
+}
+
+.proposal-offer-focus-points ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.proposal-offer-focus-points li {
+  margin-bottom: 12px;
+  color: #31485f;
 }
 
 .proposal-highlight-grid {
@@ -116,28 +313,7 @@
   color: #31485f;
 }
 
-.proposal-offer-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.proposal-offer-card {
-  position: relative;
-  background: #ffffff;
-  border: 1px solid #d6e0ec;
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 10px 28px rgba(14, 30, 44, 0.08);
-}
-
-.proposal-offer-featured {
-  border-color: #f6b845;
-  box-shadow: 0 18px 30px rgba(246, 184, 69, 0.24);
-}
-
 .offer-tag {
-  position: absolute;
-  top: -12px;
-  right: 18px;
   background: #f6b845;
   color: #1e2939;
   font-weight: 700;
@@ -147,11 +323,25 @@
   text-transform: uppercase;
 }
 
-.offer-price {
-  font-size: 26px;
+.offer-tag-premium {
+  background: linear-gradient(135deg, #1d2432 0%, #6f4b14 100%);
+  color: #fef7e2;
+}
+
+.offer-price-main {
+  font-size: 48px;
   font-weight: 700;
   color: #0f2740;
-  margin: 10px 0;
+  margin: 2px 0 0;
+}
+
+.proposal-selector-price-main {
+  font-size: 34px;
+}
+
+.proposal-offer-focus-standard {
+  border-color: #f6b845;
+  box-shadow: 0 24px 44px rgba(246, 184, 69, 0.18);
 }
 
 .proposal-reco {
@@ -186,6 +376,7 @@
   text-align: center;
   background: linear-gradient(135deg, #102c45 0%, #1f5f57 100%);
   color: #ffffff;
+  transition: background 0.35s ease;
 }
 
 .proposal-cta h2 {
@@ -196,6 +387,41 @@
 .proposal-cta p {
   margin-bottom: 28px;
   font-size: 18px;
+}
+
+.proposal-tone-light .proposal-hero {
+  background: radial-gradient(circle at 20% 20%, #245f5b 0%, #143249 45%, #0c1726 100%);
+}
+
+.proposal-tone-standard .proposal-hero {
+  background: radial-gradient(circle at 20% 20%, #1f5f57 0%, #0c1a2d 45%, #06101d 100%);
+}
+
+.proposal-tone-premium .proposal-page,
+.proposal-tone-premium {
+  background:
+    radial-gradient(circle at top right, rgba(195, 139, 45, 0.18), transparent 30%),
+    linear-gradient(180deg, #fffefb 0%, #f6f0e2 100%);
+}
+
+.proposal-tone-premium .proposal-hero {
+  background: radial-gradient(circle at 20% 20%, #6f4b14 0%, #1d1c2d 45%, #0b0f18 100%);
+}
+
+.proposal-tone-premium .proposal-cta {
+  background: linear-gradient(135deg, #2b2113 0%, #7b5a1f 100%);
+}
+
+@keyframes proposalFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -210,8 +436,27 @@
   .proposal-highlight-grid,
   .proposal-list-grid,
   .proposal-phase-grid,
-  .proposal-offer-grid,
-  .proposal-meta-grid {
+  .proposal-meta-grid,
+  .proposal-selector,
+  .proposal-offer-focus {
     grid-template-columns: 1fr;
+  }
+
+  .proposal-offer-focus {
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .proposal-section {
+    padding: 60px 0;
+  }
+
+  .proposal-offer-focus-copy h3 {
+    font-size: 28px;
+  }
+
+  .proposal-selector-button {
+    padding: 18px;
   }
 }
